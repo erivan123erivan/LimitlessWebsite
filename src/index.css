@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+body {
+  margin: 0;
+  font-family: "bodyfont";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Circular";
+}
+
+@font-face {
+  font-family: "bodyfont";
+  src: url("./assets/fonts/ESBuild-Semibold.ttf");
+}
+
+
+@font-face {
+  font-family: "Circular";
+  src: url("./assets/fonts/TT\ Commons\ Regular.otf");
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "bodyfont";
+}
+p{
+  font-family: "Circular";
+}
+a{
+  font-family: "bodyfont";
+}
+button{
+  font-family: "bodyfont";
+}
